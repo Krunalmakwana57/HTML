@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="Sign_up_form.css">
+    <style>
+        h1{
+    text-align: center;
+}
+form{
+    background-color: lightblue;
+    font-family: sans-serif;
+    width: 400px;
+    margin: 10px auto;
+    padding: 20px 80px;
+    /* border: solid; */
+    border-radius: 8px;
+}
+label{
+    display: block;
+    margin: 8px;
+}
+button{
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    border-color: rgb(5, 100, 5);
+    font-weight:bold;
+}
+button:hover{
+    background-color: lightgreen;
+}
+.interest{
+    display: inline;
+}
+.login{
+    text-align: center;
+}
+#name,#email,#jobs,#password{
+    border: none;
+    background-color: lightgrey;
+    width: 100%;
+    font-size: 15px;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+a{
+    text-decoration: none;
+}
+.k1{
+    margin-top: 5px;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <form action="form.java" method="post">
+        <h1>Sign up</h1>
+        <label for="name">Name</label>
+        <input type="text"  id="name" placeholder="Enter your name" required spellcheck="true">
+        <label for="email">Email</label>
+        <input type="email"  id="email" placeholder="Enter your email" required>
+        <label for="password" >Password</label>
+        <input type="password" id="password" placeholder="Password" required>
+        <label for="jobs">Job role:</label>
+        <select name="job" id="job" required>
+            <option value="job">Jobs</option>
+            <option value="PHP">Php developer</option>
+            <option value="Java">Java developer</option>
+            <option value="Python">Python developer</option>
+            <option value="C/C++">C/C++ developer</option>
+            <option value="Javascript">Javascript</option><br>
+        </select>
+        <label for="intrest">Intrest:</label>
+            <input type="checkbox" id="development">
+            <label for="Designing" class="interest">Designing</label><br>
+            <input type="checkbox" id="development">
+            <label for="App development" class="interest">App development</label><br>
+            <input type="checkbox" id="development">
+            <label for="Web development" class="interest">Web development</label><br>
+            <input type="checkbox" id="development">
+            <label for="AI/ML" class="interest">AI/ML</label><br>
+            <button>Sign up</button>
+            <div id="login" class="k1">Alredy have an account?<a href="">Login here</a></div>
+    </form>
+</body>
+</html>

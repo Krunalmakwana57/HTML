@@ -1,0 +1,18 @@
+Defint Terms :
+1>Website : A website is the group of web pages that are placed in a location on the internet under a domain. For example, a company website can have various web pages such as home, about us, contact us, products, services, and others. It is accessible through a web address. The website can be designed using static web pages or dynamic web pages. Contents on a website are globally viewed, remain the same for the different individuals.
+
+2>webpage : A web page can be defined as a solitary page of a website. When a user wants to access a webpage, it can be accessed by using a single URL, and that page can be copied and shared. Viewing a webpage doesn’t require any navigation, unlike a website. It can contain text, graphics, audio, video, downloadable hyperlink to other pages, etc.
+
+3>web browser : A web server is a computer hosting one or more websites. “Hosting” means that all the web pages and their supporting files are available on that computer. The web server will send any web page from the website it is hosting to any user’s browser, per user request.
+
+4>web server : In simple terms, a web server is a computer that stores, processes, and delivers website files to web browsers.
+Web servers consist of hardware and software that use Hypertext Transfer Protocol (HTTP) to respond to web users’ requests made via the World Wide Web.
+Through this process, web servers load and deliver the requested page to the user’s browser – Google Chrome, for example.
+
+5>HTML : HTML stands for HyperText Markup Language. It is used to design web pages using a markup language. HTML is the combination of Hypertext and Markup language. Hypertext defines the link between the web pages. A markup language is used to define the text document within tag which defines the structure of web pages.
+
+6> CSS : CSS (Cascading Style Sheets) is a stylesheet language used to design the webpage to make it attractive. The reason for using CSS is to simplify the process of making web pages presentable. CSS allows you to apply styles to web pages. More importantly, CSS enables you to do this independent of the HTML that makes up each web page.
+
+7>In how many ways can a CSS be integrated as a web page?
+->There Are three ways that a css be integrated
+1>inline 2>internal 3>external. 
