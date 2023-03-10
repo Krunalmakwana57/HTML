@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .rotate{
+            height: 100px;
+            width: 500px;
+            background-color: green;
+            /* transform: rotate(35deg); */
+            margin-top: 150px;
+            transform: rotateZ(180deg);
+        }
+        .transit{
+            margin-top:50px;
+            height: 100px;
+            width: 500px;
+            background-color: lightskyblue;
+            animation-name: k1;
+            animation-duration: 5s;
+            /* animation-delay: 3s; */
+            position: relative;
+            /* animation-iteration-count: infinite;
+            animation-direction:alternate; */
+        }
+        @keyframes k1 {
+            from{background-color: lightskyblue;}
+            to{background-color: lightcoral;}
+            0%{left:0;top:0;background-color: lightskyblue;}
+            25%{left: 500px;top:0;background-color: red;}
+            50%{left:500px;top:500px;background-color: green;}
+            75%{left: 0;top:500px;background-color: aqua;}
+            100%{left: 0;top:0;background-color: orange;}
+        }
+    </style>
+</head>
+<body>
+    <div class="rotate">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum ducimus in velit sapiente, voluptatum aliquid nam reprehenderit incidunt non itaque.</p>
+    </div>
+    <div class="transit">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ullam at, consequatur, ab ipsa quod iure iste expedita porro voluptas aliquam dolores vel quis cum a obcaecati! Nulla explicabo reiciendis obcaecati quaerat eum numquam dolor, voluptate, enim deleniti eaque velit beatae culpa cumque amet ea fugit fuga et inventore molestiae?</p>
+    </div>
+</body>
+</html>
